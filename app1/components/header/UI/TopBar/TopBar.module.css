@@ -1,0 +1,29 @@
+.topbar {
+  position: relative;
+  z-index: 2;
+  max-width: 77.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.topbar__container {
+  display: flex;
+  height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--c-light)
+}
+
+.topbar .account {
+  width: 1em;
+  height: 1em;
+  color: var(--c-primary);
+  margin-right: 5px
+}
+
+.topbar .account-info {
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: 500
+}
