@@ -1,26 +1,24 @@
 {
-  "name": "mf-nextjs",
+  "name": "next-zones-mfp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "cd app1/ && yarn && cd ../app2 && yarn && cd ..",
+    "prepare": "cd app1/ && yarn && cd ../app2 && yarn && cd ../app3 && yarn && cd ../app4 && yarn && cd ..",
     "run-app1": "cd app1/ && yarn dev",
-    "run-app2": "cd app2/ && yarn dev"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hamatoyogi/next-mf-blogpost.git"
+    "run-app2": "cd app2/ && yarn dev",
+    "run-app3": "cd app3/ && yarn dev",
+    "run-app4": "cd app4/ && yarn dev"
   },
   "keywords": [
     "nextjs",
     "module-federation"
   ],
-  "author": "Yoav Ganbar",
+  "author": "Dmitry Humeniuk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hamatoyogi/next-mf-blogpost/issues"
+    "url": "https://github.com/humeniukd/next-zones-mfp/issues"
   },
-  "homepage": "https://github.com/hamatoyogi/next-mf-blogpost#readme"
+  "homepage": "https://github.com/humeniukd/next-zones-mfp#readme"
 }
